@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">資產管理</string>
+
+    <string name="overview">資產總覽</string>
+    <string name="new_income">新增收入</string>
+    <string name="new_outgoing">新增支出</string>
+    <string name="settings">設定</string>
+
+    <string name="current_asset">目前資產</string>
+    <string name="predict_future_asset">未來資產預估</string>
+    <string name="predict_asset">資產預估</string>
+    <string name="current_month_income">本月目前收入</string>
+    <string name="current_month_outgoing">本月目前支出</string>
+    <string name="detail_income">詳細收入</string>
+    <string name="detail_outgoing">詳細支出</string>
+    <string name="detail_in_and_out">詳細收支</string>
+
+    <string name="onetime_income">單筆收入</string>
+    <string name="monthly_income">每月收入</string>
+    <string name="yearly_income">年度收入</string>
+
+    <string name="onetime_outgoing">單筆支出</string>
+    <string name="monthly_outgoing">每月支出</string>
+    <string name="yearly_outgoing">年度支出</string>
+    <string name="instalment">分期付款</string>
+
+    <string name="delete_income">刪除收入</string>
+    <string name="delete_outgoing">刪除支出</string>
+    <string name="modify_income">修改收入</string>
+    <string name="modify_outgoing">修改支出</string>
+
+    <string name="add_onetime_income">新增單筆收入</string>
+    <string name="add_monthly_income">新增每月收入</string>
+    <string name="add_yearly_income">新增年度收入</string>
+    <string name="add_onetime_outgoing">新增單筆支出</string>
+    <string name="add_monthly_outgoing">新增每月支出</string>
+    <string name="add_yearly_outgoing">新增年度支出</string>
+    <string name="add_instalment">新增分期付款</string>
+    <string name="please_enter_money">請輸入金額</string>
+    <string name="please_enter_num">請輸入分期期數</string>
+
+    <string name="adjust">調薪</string>
+
+    <string name="onetime_income_success">成功新增單筆收入</string>
+    <string name="monthly_income_success">成功新增每月收入</string>
+    <string name="yearly_income_success">成功新增年度收入</string>
+    <string name="onetime_outgoing_success">成功新增單筆支出</string>
+    <string name="monthly_outgoing_success">成功新增每月支出</string>
+    <string name="yearly_outgoing_success">成功新增年度支出</string>
+    <string name="instalment_outgoing_success">成功新增分期付款</string>
+
+    <string name="date">日期</string>
+    <string name="money">金額</string>
+    <string name="note">備註</string>
+    <string name="instalment_current">本期</string>
+    <string name="instalment_total">分期</string>
+    <string name="instalment_name">期</string>
+
+    <string name="detail">明細</string>
+    <string name="money_input">金額:</string>
+    <string name="note_input">備註:</string>
+    <string name="instalment_input">期數:</string>
+    <string name="confirm">  新增  </string>
+    <string name="delete">  刪除  </string>
+    <string name="cancel">  取消  </string>
+    <string name="dialog_return">  返回  </string>
+    <string name="predict">  預估  </string>
+    <string name="delete_success">刪除成功</string>
+
+
+</resources>

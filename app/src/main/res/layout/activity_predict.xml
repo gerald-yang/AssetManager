@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/predict"
+        android:id="@+id/predict_confirmButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/predictDatePicker"
+        android:layout_alignStart="@+id/predictDatePicker"
+        android:textSize="22dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_return"
+        android:id="@+id/predict_cancelButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/predictDatePicker"
+        android:layout_alignEnd="@+id/predictDatePicker"
+        android:textSize="22dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/predictDatePicker"
+        android:calendarViewShown="false"
+        android:layout_above="@+id/predict_confirmButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/predict_moneyTextView"
+        android:textSize="22dp"
+        android:layout_above="@+id/predictDatePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp" />
+
+</RelativeLayout>
